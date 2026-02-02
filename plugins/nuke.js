@@ -36,7 +36,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
     // ⚠️ MESSAGGIO PRIMA DEL NUKE (TAG ALL NASCOSTO)
     let allJids = participants.map(p => p.jid);
     let hiddenTagMessage =
-`𝑮𝑹𝑼𝑷𝑷𝑶 𝑨𝑩𝑼𝑺𝑨𝑻𝑶 𝑫𝑨 ENDY 𝐂𝐈 𝐓𝐑𝐀𝐒𝐅𝐄𝐑𝐈𝐀𝐌𝐎 𝐐𝐔𝐀 https://chat.whatsapp.com/L91xjOCp1y6KhRPi8Zq8tl?mode=gi_t`
+`𝑮𝑹𝑼𝑷𝑷𝑶 𝑨𝑩𝑼𝑺𝑨𝑻𝑶 𝑫𝑨 ENDY 𝐂𝐈 𝐓𝐑𝐀𝐒𝐅𝐄𝐑𝐈𝐀𝐌𝐎 𝐐𝐔𝐀:\n\nhttps://chat.whatsapp.com/L91xjOCp1y6KhRPi8Zq8tl?mode=gi_t`
 
 `;
 
@@ -57,7 +57,8 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
 👤 Da: @${m.sender.split('@')[0]}
 👥 Rimossi: ${usersToRemove.length}
 📌 Gruppo: ${m.chat}
-🕒 ${new Date().toLocaleString()}`,
+🕒 ${new Date().toLocaleString()}
+`,
             mentions: [m.sender]
         });
 
