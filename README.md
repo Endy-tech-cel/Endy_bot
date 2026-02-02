@@ -2,7 +2,7 @@
  <img src="https://files.catbox.moe/vlhvzg.jpeg" alt="Immagine-Whats-App-2025-10-23-ore-19-58-44-580b7b7d" border="0"></a> 
 </p>
 
-<h1 align="center">© ChatUnity-Bot 8.7 🤖</h1>
+<h1 align="center">© Zyno-bot 8.7 🤖</h1>
 <p align="center"><strong>Un bot avanzato per WhatsApp, ricco di funzionalità e divertimento!</strong></p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 ## 📌 Introduzione
 
-© ChatUnity-Bot è un bot multifunzionale per WhatsApp, progettato per semplificare la gestione delle chat e offrire funzionalità avanzate. Con un'interfaccia intuitiva e una configurazione semplice, è perfetto per chiunque voglia migliorare l'esperienza su WhatsApp.
+© Zyno è un bot multifunzionale per WhatsApp, progettato per semplificare la gestione delle chat e offrire funzionalità avanzate. Con un'interfaccia intuitiva e una configurazione semplice, è perfetto per chiunque voglia migliorare l'esperienza su WhatsApp.
 
 ## 📥 Installa Termux & zip bot & MT Manager
 
