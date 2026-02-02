@@ -2,7 +2,7 @@ const handler = async (m, { conn }) => {
     try {
         if (!global.db?.data?.chats) throw new Error("Database non disponibile");
         
-        let txt = `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄𝐈 𝐆𝐑𝐔𝐏𝐏𝐈 𝐃𝐈 ${nomebot}`;
+        let txt = `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄𝐈 𝐆𝐑𝐔𝐏𝐏𝐈 𝐃𝐈 ${Zyno}`;
         
         const groups = Object.entries(conn.chats)
             .filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats)
