@@ -2,7 +2,7 @@ import axios from "axios";
 
 var handler = async (m, { text, usedPrefix, command, conn }) => {
   if (!text) {
-    await m.reply("Per favore, scrivi una descrizione per generare l'immagine.");
+    await m.reply("mongoloide, scrivi una descrizione per generare l'immagine down, se no come faccio a capire che immagine vuoi, bah.");
     return;
   }
 
