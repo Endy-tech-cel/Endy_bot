@@ -8,7 +8,7 @@ var handler = async (m, { text, usedPrefix, command, conn }) => {
 
   try {
     await conn.sendPresenceUpdate("composing", m.chat);
-    await m.reply("> CREO IMMAGINE ...🔥");
+    await m.reply("> CREO IMMAGIN IN CORSO....👺👺👺 卍");
 
     let apiUrl;
     switch (command) {
