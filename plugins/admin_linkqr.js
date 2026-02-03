@@ -1,4 +1,3 @@
-//Plugin fatto da Gabs & 333 Staff
 import QRCode from 'qrcode';
 
 const handler = async (m, { conn }) => {
